@@ -2,6 +2,21 @@ app:
   title: Scaffolded Backstage App
   baseUrl: http://localhost:3000
 
+  techdocs:
+    builder: 'local'
+    generator:
+      runIn: 'local'
+    publisher:
+      type: 'local'
+
+  auth:
+    environment: development
+    providers:
+      github:
+        development:
+          clientId: e5dafe3a9bbf4bb5afd5
+          clientSecret: 1732b417be2bc4dc5edfe2efdce2c61eef57ede1
+
 organization:
   name: My Company
 
