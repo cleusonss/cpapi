@@ -9,6 +9,11 @@ app:
     publisher:
       type: 'local'
 
+  integrations:
+    github:
+      - host: github.com
+        token: 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
+
   auth:
     environment: development
     providers:
